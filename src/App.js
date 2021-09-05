@@ -1,4 +1,5 @@
 import "./App.css";
+import { AlertDemo } from "./components/AlertDemo";
 import PdfDemo from "./components/PdfDemo";
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       </div>
 
       <PdfDemo />
+
+      <AlertDemo />
     </>
   );
 }
